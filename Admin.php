@@ -145,9 +145,9 @@
 						Bienvenido
 					</div>					
 		  			<div class="col-xs-12 col-sm-9 col-md-9 section-text-inverse">
-		  				<p>Administrador, Auí puedes editar tus registro.
+		  				<p>Administrador, Aquí puedes editar tus registro.
                   Puedes actualizar el estado de tu registro, si esta activo o inactivo.  
-                  Ó bien eliminarlo cuando el usuario entrege la bicicleta.</p>
+                  Ó bien eliminarlo cuando el usuario entrege la unidad.</p>
 		  			</div>  				
 				</div><!-- End row-->
 		</div><!-- End container-->
