@@ -1,0 +1,401 @@
+/*****************************/
+/*        Conf theme         */
+/*****************************/
+::selection {
+    background-color: #18A7D6;
+    color: #fff;
+}
+
+#click{
+    position: fixed;
+    z-index: 999;
+    height: 45px;
+    width: 45px;
+    background-color: #078AA0;
+    color: #fff;
+    font-size: 34px;
+    margin-top: 180px;
+    padding: 0px 0px 3px 3px;
+    cursor: pointer;
+ }
+
+#panel{
+    height: 100px;
+    width: 200px;
+    background: rgb(243, 243, 243);
+    border: 1px solid #CCCECE;
+    border-radius: 3px;
+    float: left;
+    display: none;
+    color: white;
+    font-size: xx-large;
+    position: fixed;
+    margin-top: 225px;
+    z-index: 999999;
+}
+
+#clicklan{
+    height: 45px;
+    width: 45px;
+    right: 0%;
+    background-color: #078AA0;
+    color: #fff;
+    font-size: 34px;
+    margin-top: 180px;
+    position: fixed;
+    z-index: 99999;
+    padding: 0px 0px 5px 8px;
+    cursor: pointer; 
+}
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    z-index: 2;
+    color: #fff;
+    background-color: #0C9BB1;
+    border-color: #337ab7;
+}
+
+.content-color{
+    padding: 18px;
+    background-color: #069DD4;
+    text-align: center;
+    border-bottom: 3px solid #26C4FE;
+}
+
+.content-color-transparency{
+    padding: 18px;
+    background-color: rgba(3, 123, 144, 0.8);
+    text-align: center;
+    border-bottom: 4px solid rgb(0, 94, 107);
+}
+
+#go-top a{
+    top: 2%;
+    height: 40px;
+    width: 40px;
+    z-index: 9999;
+    position: fixed;
+    top: 92%;
+    right: 2%;
+    background-color: #069BB5;
+    color: #fff;
+    padding: 10px 13px;
+    -webkit-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+#go-top a i{
+    color: #fff;
+}
+
+/*****************************/
+/*        Head Title         */
+/*****************************/
+.head-title{
+	background-color: #078AA0;
+	color: #fff;
+	padding: 10px;
+	width: 100%;
+}
+
+/*****************************/
+/*         Nab bar           */
+/*****************************/
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #555;
+    background-color: #74E2F5;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #3B4547;
+    font-size: 17px;
+    font-weight: 500;
+    border-right: 1px solid #E6E5E5;
+    padding: 17px;
+}
+
+/*****************************/
+/*      Controls Slider      */
+/*****************************/
+.caption-title-one{
+    text-transform: uppercase;
+    font-size: 50px;
+    background-color: rgba(108, 146, 152, 0.46);
+    font-weight: 600;
+    color: #fff;
+    padding-left: 7px;
+}
+ .caption-body-one{
+    background-color: rgba(108, 146, 152, 0.46);
+    margin-top: 15px;
+    width: 70%;
+    font-size: 25px;
+    font-weight: 600;
+    color: #F8F8F8;
+    padding-left: 8px;
+ }
+.caption-button-one{
+    margin-top: 20px;
+    background-color: rgba(234, 233, 233, 0.62);
+    border: 2px solid #EEEEEE;
+    padding: 10px 30px;
+    color: #404C50;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.caption-button-one:hover{
+    background-color: rgba(234, 233, 233, 0.61);
+    border: 2px solid #fff;
+}
+/****Settings Slider Two****/
+.caption-two{
+    top:15%;
+    float: right;
+    margin-right: 30px;
+}
+.caption-title-two{ 
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 50px;
+    background-color: rgba(108, 146, 152, 0.46);
+    font-weight: 600;
+    color: #F8F8F8;
+    padding-right: 7px;
+}
+.caption-body-two{
+    float: right;
+    background-color: rgba(108, 146, 152, 0.46);
+    text-align: right;
+    margin-top: 15px;
+    width: 90%;
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+    clear: both;
+    padding-right: 7px;
+ }
+.caption-button-two{
+    float: right;
+    margin-top: 30px;
+    background-color: rgba(234, 233, 233, 0.62);
+    border: 2px solid #EEEEEE;
+    padding: 10px 30px;
+    color: #121415;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.caption-button-two:hover{
+    background-color: rgba(234, 233, 233, 0.61);
+    border: 2px solid #fff;
+}
+
+/****Settings Slider three****/
+.caption-three{
+    top:15%;
+    left: 40px;         
+}
+.caption-title-three{
+    text-transform: uppercase;
+    font-size: 50px;
+    background-color: rgba(108, 146, 152, 0.46);
+    font-weight: 600;
+    color: #F8F8F8;
+    padding-left:7px;
+}
+ .caption-body-three{
+    background-color: rgba(108, 146, 152, 0.46);
+    margin-top: 15px;
+    width: 70%;
+    font-size: 25px;    
+    font-weight:600; 
+    color: #fff;
+     padding-left:10px;
+ }
+.caption-button-three{
+    margin-top: 20px;
+    background-color: rgba(234, 233, 233, 0.62);
+    border: 2px solid #EEEEEE;
+    padding: 10px 30px;
+    color: #121415;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.caption-button-three:hover{
+    background-color: rgba(234, 233, 233, 0.61);
+    border: 2px solid #fff;
+}
+.camera_prevThumbs, .camera_nextThumbs, .camera_prev, .camera_next, .camera_commands, .camera_thumbs_cont {
+    background: #d8d8d8;
+    background: rgba(82, 197, 241, 0.58);
+}
+
+/*****************************/
+/*      Secction Services    */
+/*****************************/
+.btn-services{
+    margin-top: 8px;
+    padding: 5px 20px;
+    background-color: #B1B8BB;
+    border:1px solid #fff;
+    font-size: 25px;
+    border-radius: 5px;
+}
+.btn-services:hover{
+    margin-top: 8px;
+    padding: 5px 20px;
+    background-color: #27A6D6;
+    border:1px solid #fff;
+    font-size: 25px;
+    border-radius: 5px;
+    color: #fff;    
+}
+
+.section-head-inverse{
+    border-left: 7px solid #069BB5; 
+    font-size: 55px;
+    color: #069BB5;
+    text-align: left;
+    font-weight: 600;
+}
+.service-ddetails:hover{
+    background-color: #0399B3;
+    color: #FFF;
+}
+.section-text-inverse p{
+    text-align: justify;
+    font-size: 18px;
+    color: #48585C;
+}
+
+.card__front,
+.card__back {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transition: -webkit-transform 1.0s;
+          transition: transform 1.0s;
+}
+
+.card__front {
+  background-color: #FCFCFC;
+}
+
+.card__back {
+  background-color: #068FA7;
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+}
+
+.card.effect__hover:hover .card__front {
+  -webkit-transform: rotateX(-180deg);
+          transform: rotateX(-180deg);
+}
+
+.card.effect__hover:hover .card__back {
+  -webkit-transform: rotateY(0);
+          transform: rotateY(0);
+}
+/*****************************/
+/*       Secction About      */
+/*****************************/
+
+.item-service i{
+    border-radius: 100%;
+    font-size: 130px;
+    background-color: rgba(31, 121, 139, 0.82) ;
+    padding: 40px;
+    color: #fff;
+}
+
+.panel-default {
+    border-color: #2EB9E7;
+}
+
+.panel-default>.panel-heading {
+    color: #fff;
+    background-color: #0C9BB1;
+    border-color: #ddd;
+}
+
+.list-unstyled li{
+    margin-right: 5px;
+    color: #10C7F5;
+}
+
+.bi-wrp.bi-default-theme.bi-cRange-dito .bi-barInner { background-color:#069BB5 }
+.bi-wrp.bi-default-theme .bi-bar {
+    box-shadow: inset 0 0 0px -3px rgb(0, 0, 0);
+    -webkit-box-shadow: inset 0 0 0px -3px rgba(0,0,0,0.5);
+    -ms-box-shadow: inset 0 0 0px -3px rgba(0,0,0,0.5);
+    -o-box-shadow: inset 0 0 0px -3px rgba(0,0,0,0.5);
+    -moz-box-shadow: inset 0 0 10px -3px rgba(0,0,0,0.5);
+    border: 1px solid #078AA0;
+
+}
+
+/*****************************/
+/*       Secction About      */
+/*****************************/
+.owl-theme .owl-controls .owl-buttons div {
+    color: #FFF;
+    display: inline-block;
+    zoom: 1;
+    margin: 5px;
+    padding: 1px 15px;
+    font-size: 30px;
+    border-radius: 0px; 
+    background-color: #069BB5;  
+    opacity: 1; 
+}
+
+/*****************************/
+/*       Secction About      */
+/*****************************/
+.mfp-title {
+    position: relative;
+    text-align: left;
+    line-height: 18px;
+    color: #FFF;
+    word-wrap: break-word;
+    /* padding-right: 36px; */
+    background-color: rgba(6, 143, 167, 0.8);
+    top: -32px;
+    font-size: 25px;
+    padding: 5px; 
+}
+
+/*****************************/
+/*       Secction Team       */
+/*****************************/
+.person-team{
+    position: absolute;
+    width: 50%;
+    background-color: rgba(6, 155, 181, 0.90);
+    right: 0;
+    left: 15px;
+    bottom: 0;
+    top: 0;
+    z-index: 10;
+    padding-top: 30px;
+    padding-left: 8px;
+    color:#fff;
+}
+.btn-default {
+      border-color: #069BB5;
+      background-color: rgb(234, 233, 233, 0.51);  
+}
+
+.btn-default:hover {
+    color: #FFF;
+    background-color: #068BA2;
+    border-color: #2EB9E7;
+}
+
+/*****************************/
+/*     Secction contact      */
+/*****************************/
+.container-contact{
+    background-color: rgba(236, 238, 239, 0.7);
+    padding-left: 15px;
+}
